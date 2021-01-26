@@ -42,7 +42,9 @@ class Counter extends React.Component {
   }
 
   incrementScore() {
-    console.log("Hi, inside increment score");
+    this.setState({
+      score: this.state.score + 1
+    });
   }
 
   render() {

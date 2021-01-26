@@ -37,15 +37,12 @@ const Player = (props) => {
 }
 
 class Counter extends React.Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     score: 0
-  //   }
-  // }
-
   state = {
     score: 0
+  }
+
+  incrementScore() {
+    console.log("Hi, inside increment score");
   }
 
   render() {
@@ -53,7 +50,7 @@ class Counter extends React.Component {
       <div className="counter">
         <button className="counter-action decrement"> - </button>
         <span className="counter-score">{this.state.score}</span>
-        <button className="counter-action increment"> + </button>
+        <button className="counter-action increment" onClick={this.incrementScore}> + </button>
       </div>
     );
   }

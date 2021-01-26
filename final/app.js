@@ -3,7 +3,6 @@ const Header = () =>
     <h1>Scoreboard</h1>
     <span className="stats">Players: 1</span>
   </header>
-;
 
 // const Header = () => {
 //   return (
@@ -12,6 +11,6 @@ const Header = () =>
 //       <span className="stats">Players: 1</span>
 //     </header>
 //   )
-// };
+// }
 
 ReactDOM.render(<Header />, document.getElementById('root'));

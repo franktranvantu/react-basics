@@ -4,4 +4,4 @@ const title = React.createElement(
   'My first React Element!'
 );
 
-console.log(title)
+console.log(title);

@@ -1,0 +1,1 @@
+In this section, we'll set up the Player component to receive props and pass props down to the Counter component. This will make the Player component dynamic and reusable.

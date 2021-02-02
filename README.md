@@ -1,0 +1,1 @@
+In this section, we'll use the filter() array iteration method to remove an object from the players array in state.

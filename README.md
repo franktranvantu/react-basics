@@ -1,0 +1,1 @@
+In this video, we'll create a stateful component by first defining an initial state inside the Counter class.
